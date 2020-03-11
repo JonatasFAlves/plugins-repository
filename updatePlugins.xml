@@ -1,4 +1,4 @@
-?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- 
   The <plugins> element contains the description of the plugins available at this repository. Required. 
 -->
@@ -9,16 +9,12 @@
     url - path to download the plugin JAR/ZIP file. Required. Must be HTTPS
     version - version of this plugin. Required. Must match <version> in plugin.xml
   -->
-  <plugin id="fully.qualified.id.of.this.plugin" url="https://www.mycompany.com/my_repository/mypluginname.jar" version="major.minor.update">
+  <plugin id="acception.intellij.console" url="https://git.acceptiondev.com.br/attachments/e1d5fd58-4ba3-4cb1-9e73-c82b359fe75a" version="1.1">
     <!--
       The <idea-version> element must match the same element in plugin.xml. Required.
     -->
-    <idea-version since-build="181.3" until-build="191.*" />
+    <idea-version since-build="181.3" until-build="201.*" />
   </plugin>
-  <plugin id="id.of.different.plugin" url="https://www.otherserver.com/other_repository/differentplugin.jar" version="major.minor">
-    <idea-version since-build="181.3" until-build="191.*" />
-  </plugin>
-  <plugin>
-    <!-- And so on for other plugins... -->
+  
   </plugin>
 </plugins>
