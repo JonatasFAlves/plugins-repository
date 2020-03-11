@@ -9,7 +9,7 @@
     url - path to download the plugin JAR/ZIP file. Required. Must be HTTPS
     version - version of this plugin. Required. Must match <version> in plugin.xml
   -->
-  <plugin id="br.com.acception.intellij-console" url="https://github.com/JonatasFAlves/plugins-repository/releases/download/1.1/intellij-console-1.1.jar" version="1.1">
+  <plugin id="br.com.acception.intellij-console" url="https://github.com/JonatasFAlves/plugins-repository/releases/download/1.2/intellij-console-1.2.jar" version="1.2">
     <!--
       The <idea-version> element must match the same element in plugin.xml. Required.
     -->
